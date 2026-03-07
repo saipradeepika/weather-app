@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    color: white;
+    width: 300px;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 15px;
+    height: 40px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.temp { font-size: 60px; margin-top: -10px; }
+.city { font-size: 30px; font-weight: 400; }
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
